@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Sarah theme: navy and blue */
+
+@theme inline {
+  --font-sans: var(--font-outfit);
+  --font-mono: var(--font-geist-mono);
+  --color-cream: #f5f7fb;
+  --color-paper: #ffffff;
+  --color-ink: #0c1b4d;
+  --color-muted: #64748b;
+  --color-forest: #2f6fed;
+  --color-forest-deep: #1d4ed8;
+  --color-leaf: #2f6fed;
+  --color-gold: #2563eb;
+  --color-gold-soft: #eef4ff;
+  --color-line: #e6edf5;
+  --color-danger: #b42318;
+  --color-bark: #0c1b4d;
+  --color-clay: #ffffff;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans), "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: #dbe7ff;
+  color: #0c1b4d;
+}
